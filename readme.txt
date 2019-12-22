@@ -4,6 +4,6 @@ Responsive mobile-first design
 Sass/Scss
 JQuery
 Bootstrap
-PHP 
+PHP - can not use php in a github page. Need to find another way to implement php code on some other server
 SEO
 Git
