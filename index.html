@@ -1,219 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Home</title>
-        <meta charset="utf-8"/>
-        <meta name="viewport"content="width=device-width,initial-scale=1, shrink-to-fit=no">
-        
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        
-        <link rel="icon" type="image/png" href="images/favicon.png">
-        <link rel="stylesheet" type="text/css" href="stylesheet.css">
-        <style>
-            .black{background-color:blue;}
-            .blue{background-color:black;}
-            .vid-box{padding-top:10px; }
-            a strong{
-                color:white;
-            }
-            .zero
-            {
-                margin:0px;
-                padding:0px;
-            }
-            .vid-box img{min-width: 100px;}
-            header
-            {
-                background-color: black;
-                color:white;
-                
-            }
-            header img{width:50px;}
-            nav{padding:0px;}
-            .header-icons{
-                min-width: 50px;
-                max-width:75px;
-            }
-                      
-        </style>
-    </head>
-    <body>    
-        <header id="top"  class="container-fluid">
-            <div class="row">
-                <a class="navbar-brand header-icons align-self-center col-1 col-sm-1 col-md-1">
-                    <img class="rounded header-icons img-thumbnail" src="images/wshh-img.png" alt="World star icon">
-                </a>           
-                <div class="align-self-center col-6 col-sm-4 col-md-6">
-                    <h3 class="zero"><strong>WORLD*STAR<br></strong></h3>
-                    <h5 class="zero">SipHot</h5>
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <style>
+        .black { background-color: black;}
+
+        .blue { background-color: blue;}
+        .white{background-color:pink; }
+        .vid-box {
+            padding-top: 10px;
+        }
+        a strong {color: white;}
+
+        .zero {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .vid-box img {
+            min-width: 100px;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+        }
+
+        header img {
+             width: 50px;             
+        }
+        nav {
+            
+        }
+
+        .header-icons {
+            min-width: 175px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row no-gutters">
+           
+            <div class="align-self-center col-2">
+                <a href="#"> <img class="header-icons img-fluid rounded" src="images/worldstar-logo.jpg" alt="twitter icon"></a>                
+            </div>
+            <!--Nav bar section-->
+            <nav class="navbar navbar-expand-lg navbar-dark col ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse align-self-center" id="navbarNavAltMarkup">
+                    <nav class="navbar-nav ">
+                        <a href="#" class="nav-link nav-item text-dark active"><strong>Contact</strong></a>
+                        <a href="#" class="nav-link nav-item text-dark"><strong>Shop</strong></a>
+                    </nav>
                 </div>
-                <!--Nav bar section-->
-                <nav class="navbar navbar-expand-lg navbar-dark col-1 col-sm-1 col-md-1 col-lg-2 no-gutters">
-                    <!--<a class="navbar-brand" href="#">Navbar</a>-->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse align-self-center" id="navbarNavAltMarkup">
-                        <nav class="navbar-nav ">
-                            <a href="#" class="nav-link nav-item text-dark active"><strong>Contact</strong></a>
-                            <a href="#" class="nav-link nav-item text-dark"><strong>Shop</strong></a>
-                        </nav>
-                    </div>
-                </nav>
-                <!--header social media section-->
-                <div class="col-1 d-none d-sm-block align-self-center text-justify-right header-icons"><a href="#">
-                        <a href="#"> <img class="img-fluid rounded" src="images/twitter-img.jpg" alt="twitter icon"></a>
-                </div>
-                <div class="col-1 d-none d-sm-block align-self-center text-justify-right header-icons">
-                    <a href="#"><img class="img-fluid rounded" src="images/instagram-img.png" alt="instagram icon"></a>
-                </div>
-                <div class="col-1 d-none d-sm-block align-self-center text-justify-right header-icons">
-                    <a href="#"><img class="img-fluid rounded" src="images/facebook-img.jpg" alt="facebook icon"></a>
-                </div>                
-            </div>        
-        </header>
-        <!--star of the video section-->
-        <main class="container">
+            </nav>
+            <!--header social media section-->
+            <div class="col d-none d-sm-block align-self-center header-icons navbar-brand "><a href="#">
+                    <a href="#"> <img class="img-fluid rounded" src="images/twitter-img.jpg" alt="twitter icon"></a>
+            </div>
+            <div class="col d-none d-sm-block align-self-center navbar-brand header-icons ">
+                <a href="#"><img class="img-fluid rounded" src="images/instagram-img.png" alt="instagram icon"></a>
+            </div>
+            <div class="col d-none d-sm-block align-self-center navbar-brand header-icons ">
+                <a href="#"><img class="img-fluid rounded" src="images/facebook-img.jpg" alt="facebook icon"></a>
+            </div>
+        </div>
+    </header> 
+     <!--star of the video section-->
+    <main class="container">
         <div class="row">
             <div class="col-12 vid-box col-md border-top border-secondary">
-                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg" alt="video preview"></a>
+                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg"
+                        alt="video preview"></a>
                 <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                     consectetur
                     arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
                     nulla.
-                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel tortor
+                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel
+                    tortor
                     mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.</p>
             </div>
-            <div class="col-12 col-md border-top border-secondary vid-box">        
-                <a href="#"><img class="col-6 col-md img-fluid" src=" images/512x512placeholder-img.jpg" alt="video preview"></a>        
+            <div class="col-12 col-md border-top border-secondary vid-box">
+                <a href="#"><img class="col-6 col-md img-fluid" src=" images/512x512placeholder-img.jpg"
+                        alt="video preview"></a>
                 <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                     consectetur
                     arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
                     nulla.
-                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel tortor
+                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel
+                    tortor
                     mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.
                 </p>
             </div>
-            <div class="col-12   col-md border-top border-secondary vid-box">
-                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg" alt="video preview"></a>
+            <div class="col-12 col-md border-top border-secondary vid-box">
+                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg"
+                        alt="video preview"></a>
                 <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                     consectetur
                     arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
                     nulla.
-                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel tortor
+                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel
+                    tortor
                     mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.
                 </p>
             </div>
-            <div class="col-12   col-md border-top border-secondary vid-box">
-               <a href="#"> <img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg" alt="video preview"></a>
+            <div class="col-12 col-md border-top border-secondary vid-box">
+                <a href="#"> <img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg"
+                        alt="video preview"></a>
                 <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                     consectetur
                     arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
                     nulla.
-                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel tortor
+                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel
+                    tortor
                     mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.
                 </p>
             </div>
         </div>
-        
+
+        <div class="row">
+            <div class="col-12 col-md border-top border-secondary vid-box">
+                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg"
+                        alt="video preview"></a>
+                <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                    consectetur
+                    arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
+                    nulla.
+                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel
+                    tortor
+                    mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.</p>
+            </div>
+            <div class="col-12 col-md border-top border-secondary vid-box">
+                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg"
+                        alt="video preview"></a>
+                <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                    consectetur
+                    arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
+                    nulla.
+                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel
+                    tortor
+                    mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.
+                </p>
+            </div>
+            <div class="col-12 col-md border-top border-secondary vid-box">
+                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg"
+                        alt="video preview"></a>
+                <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                    consectetur
+                    arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
+                    nulla.
+                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel
+                    tortor
+                    mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.
+                </p>
+            </div>
+            <div class="col-12   col-md border-top border-secondary vid-box">
+                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg"
+                        alt="video preview"></a>
+                <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                    consectetur
+                    arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
+                    nulla.
+                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel
+                    tortor
+                    mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.
+                </p>
+            </div>
+        </div>
         <div class="row">
             <div class="col-12   col-md border-top border-secondary vid-box">
-                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg" alt="video preview"></a>
+                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg"
+                        alt="video preview"></a>
                 <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                     consectetur
                     arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
                     nulla.
-                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel tortor
+                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel
+                    tortor
                     mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.</p>
             </div>
             <div class="col-12   col-md border-top border-secondary vid-box">
-                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg" alt="video preview"></a>
+                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg"
+                        alt="video preview"></a>
                 <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                     consectetur
                     arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
                     nulla.
-                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel tortor
+                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel
+                    tortor
                     mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.
                 </p>
             </div>
             <div class="col-12   col-md border-top border-secondary vid-box">
-                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg" alt="video preview"></a>
+                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg"
+                        alt="video preview"></a>
                 <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                     consectetur
                     arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
                     nulla.
-                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel tortor
+                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel
+                    tortor
                     mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.
                 </p>
             </div>
             <div class="col-12   col-md border-top border-secondary vid-box">
-                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg" alt="video preview"></a>
+                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg"
+                        alt="video preview"></a>
                 <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
                     consectetur
                     arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
                     nulla.
-                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel tortor
-                    mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12   col-md border-top border-secondary vid-box">
-                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg" alt="video preview"></a>
-                <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                    consectetur
-                    arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
-                    nulla.
-                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel tortor
-                    mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.</p>
-            </div>
-            <div class="col-12   col-md border-top border-secondary vid-box">
-                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg" alt="video preview"></a>
-                <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                    consectetur
-                    arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
-                    nulla.
-                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel tortor
-                    mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.
-                </p>
-            </div>
-            <div class="col-12   col-md border-top border-secondary vid-box">
-                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg" alt="video preview"></a>
-                <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                    consectetur
-                    arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
-                    nulla.
-                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel tortor
-                    mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.
-                </p>
-            </div>
-            <div class="col-12   col-md border-top border-secondary vid-box">
-                <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg" alt="video preview"></a>
-                <p class="col-6 col-md float-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                    consectetur
-                    arcu a dui commodo, quis aliquam tellus consequat. Nam sed magna porta, tristique nibh vel, congue
-                    nulla.
-                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel tortor
+                    Vestibulum viverra tellus dolor, et ultricies lacus tristique quis. Vivamus venenatis nulla vel
+                    tortor
                     mollis placerat. Nulla convallis leo ac nibh accumsan, vel sollicitudin nisi gravida.
                 </p>
             </div>
         </div>
-    
+
         </div>
-        </main>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
-    
-        <footer>
-        </footer>
-    </body>
-    
-    </html>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <footer>
+    </footer>
+</body>
+
+</html>
