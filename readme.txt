@@ -7,4 +7,5 @@ JQuery
 Bootstrap 4
 CSS 3
 Javascript
+SEO Optimization
 Git
