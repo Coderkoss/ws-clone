@@ -1,9 +1,10 @@
-This is a website that was made to show as part of my portfolio. It is a world star hip hop clone that is fully responsive. 
-This website was developed using the following technologies.
+This website was made as part of my Web Developer Portfolio. The site is a WorldStar Hip Hop clone that is fully responsive. 
+Some of the technologies used to make this site are listed below.
+
 Responsive mobile-first design
-Sass/Scss
+HTML5
 JQuery
-Bootstrap
-PHP - can not use php in a github page. Need to find another way to implement php code on some other server
-SEO
+Bootstrap 4
+CSS 3
+Javascript
 Git
