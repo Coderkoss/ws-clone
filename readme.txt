@@ -1,4 +1,4 @@
-This website was made as part of my Web Developer Portfolio. The site is a WorldStar Hip Hop clone that is fully responsive. 
+    This website was made as part of my Web Developer Portfolio. The site is a WorldStar Hip Hop clone that is fully responsive. 
 Some of the technologies used to make this site are listed below.
 
 Responsive mobile-first design

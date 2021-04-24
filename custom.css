@@ -16,16 +16,14 @@
 }
 
 header {
-    background-color: black;
-    
+    background-color: black;    
 }
 
 header img {
      width: 50px;             
 }
 nav {
-    font-weight:bold;
-    
+    font-weight:bold;    
 }
 nav a{
     color:white;
@@ -45,4 +43,22 @@ nav a:hover {
 .social-logo{
     width:30px;
     height:30px;
+}
+.cards-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.card img {
+    max-width: 100%;
+    max-height:100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: #000000;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    top:50%;
+    transform:translateY(-50%);
 }
