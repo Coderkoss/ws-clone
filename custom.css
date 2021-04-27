@@ -61,4 +61,11 @@ nav a:hover {
     border-radius:50%;
     top:50%;
     transform:translateY(-50%);
+    
+}
+.corousel-control-prev{
+    transform:translate(-30px,-50%);
+}
+.corousel-control-next{
+    transform:translate(300px,-50%);
 }
