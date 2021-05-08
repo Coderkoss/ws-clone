@@ -83,3 +83,6 @@ nav a:hover {
     
     background: linear-gradient(to bottom, #fff 0%,#fff 36%,#f1f1f1 90%,#f1f1f1 100%);
 }
+#ws-carousel {
+    width:100%;
+}
