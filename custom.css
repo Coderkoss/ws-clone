@@ -76,6 +76,9 @@ nav a:hover {
 .carousel-card{
     padding: 10px;
     max-width:220px;
+    margin-right:5px;
+    margin-left:5px;
+    text-align: center;
 }
 .trending-header{
     margin-top:5px ;
@@ -83,6 +86,16 @@ nav a:hover {
     
     background: linear-gradient(to bottom, #fff 0%,#fff 36%,#f1f1f1 90%,#f1f1f1 100%);
 }
+.card{
+    background-color: transparent;
+}
+.card-body{
+    padding: 0px;
+}
 #ws-carousel {
     width:100%;
+}
+.featured-vid{
+    padding-top:15%;
+    padding-bottom:2%;
 }
