@@ -76,29 +76,48 @@
         <div class="row border-bottom bg-dark trending-header ">
             <H4 class="mx-auto">TRENDING NOW</H4>
         </div>
-           <div class="row">
-            <div id="ws-carousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner primary">
-                    <div class="carousel-item active">
-                        <div class="card carousel-card border-0">
-                            <img src="images/placeholder-img3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up
-                                    the bulk of the card's content.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                            <div class="card carousel-card border-0">
+         <!--single image carousel-->
+         <div class="row d-sm-none">
+            <div id="ws-carousel" class="carousel slide " data-bs-ride="carousel">
+                <div class="carousel-inner primary ">
+                    <div class="carousel-item active ">
+                            <div class="card carousel-card border-0 mx-auto">
                                 <img src="images/placeholder-img3.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <p class="card-text">Some quick example text to build on the card title and make up
                                         the bulk of the card's content.</p>
                                 </div>
-                            </div>
-                        </div>
+                            </div>                       
                     </div>
-                
+                    <div class="carousel-item ">
+                        <div class="card carousel-card border-0 mx-auto">
+                            <img src="images/placeholder-img3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the bulk of the card's content.</p>
+                            </div>
+                        </div>                       
+                </div>
+                <div class="carousel-item ">
+                    <div class="card carousel-card border-0 mx-auto">
+                        <img src="images/placeholder-img3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the bulk of the card's content.</p>
+                        </div>
+                    </div>                       
+            </div>
+            <div class="carousel-item ">
+                <div class="card carousel-card border-0 mx-auto">
+                    <img src="images/placeholder-img3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up
+                            the bulk of the card's content.</p>
+                    </div>
+                </div>                       
+        </div>
+                </div>
+              
 
                 <a class="carousel-control-prev" href="#ws-carousel" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -109,10 +128,10 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-        </div>
-
+        </div>  
+        <!--Regular carousel -->
         <div class="row d-none d-sm-block ">
-            <div id="ws-carousel" class="carousel slide" data-ride="carousel">
+            <div id="ws-carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner primary">
                     <div class="carousel-item active">
                         <div class="cards-wrapper">
@@ -184,8 +203,26 @@
                 </a>
             </div>
         </div>
-        <h4 class="col-l2 text-center featured-vid">FEATURED VIDEOS</h4>
+
+        <h4 class="col-l2 text-center featured-vids d-none d-sm-block">FEATURED VIDEOS</h4>
         </div>
+        <section class="feature-videos container d-none d-sm-block">            
+            <div class=" embed-responsive embed-responsive-16by9 mb-1">
+                <video src="default-vid.mp4" class="embed-responsive-item">this browser can't play videos</video>
+            </div >
+            <div class="embed-responsive embed-responsive-16by9 mb-1">
+                <video src="default-vid.mp4" class="embed-responsive-item">this browser can't play videos</video>
+            </div>
+
+            <div class="row mb-1 ">
+            <div class="col-6 embed-responsive embed-responsive-16by9 px-1">
+                <video src="default-vid.mp4" class="embed-responsive-item">this browser can't play videos</video>
+            </div>
+            <div class="col-6 embed-responsive embed-responsive-16by9 px-1">
+                <video src="default-vid.mp4" class="embed-responsive-item">this browser can't play videos</video>
+            </div>
+            </div>
+        </section>
         <div class="row">
             <div class="col-12 vid-box col-md border-top border-secondary">
                 <a href="#"><img class="col-6  col-md img-fluid" src=" images/512x512placeholder-img.jpg"
